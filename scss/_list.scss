@@ -1,0 +1,183 @@
+
+.select {
+    text-align: center;
+    height: 50px;
+}
+
+.list {
+  display: block;
+  margin: 0 auto;
+  
+  @include sp {
+      display: inline-block;
+      width: 300px;
+  }
+}
+
+input[type=radio] {
+     display: none;
+    
+ } 
+
+label {
+    
+    letter-spacing: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+   
+
+
+	
+}
+.select input[type="radio"]:checked.selecta + label {
+    
+    color: rgb(252, 235, 250);
+    text-shadow:
+    0 0 10px rgb(235, 52, 219),
+    0 0 15px rgb(235, 52, 219),
+    0 0 20px rgb(235, 52, 219),
+    0 0 25px rgb(235, 52, 219),
+    0 0 30px rgb(235, 52, 219),
+    0 0 35px rgb(235, 52, 219),
+    0 0 40px rgb(235, 52, 219);
+    transition: .5s;
+}
+
+.select input[type="radio"]:checked.selectb + label {
+    color: rgb(239, 241, 248);
+    text-shadow:
+    0 0 10px rgb(43, 89, 241),
+    0 0 15px rgb(43, 89, 241),
+    0 0 20px rgb(43, 89, 241),
+    0 0 25px rgb(43, 89, 241),
+    0 0 30px rgb(43, 89, 241),
+    0 0 35px rgb(43, 89, 241),
+    0 0 40px rgb(171, 185, 233);
+    transition: .5s;
+}
+
+.select input[type="radio"]:checked.selectc + label {
+    color: rgb(248, 247, 247);
+    text-shadow:
+    0 0 10px rgb(245, 107, 53),
+    0 0 15px rgb(231, 101, 50),
+    0 0 20px rgb(231, 101, 50),
+    0 0 25px rgb(231, 101, 50),
+    0 0 30px rgb(231, 101, 50),
+    0 0 35px rgb(228, 150, 119),
+    0 0 40px rgb(226, 183, 166);
+    transition: .5s;
+}
+
+.select input[type="radio"]:checked.selectd + label {
+    color: rgb(248, 250, 223);
+    text-shadow:
+    0 0 10px rgb(236, 247, 90),
+    0 0 15px rgb(236, 247, 90),
+    0 0 20px rgb(236, 247, 90),
+    0 0 25px rgb(236, 247, 90),
+    0 0 30px rgb(236, 247, 90),
+    0 0 35px rgb(236, 247, 90),
+    0 0 40px rgb(236, 247, 90);
+    transition: .5s;
+}
+
+.select input[type="radio"]:checked.selecte + label {
+    color: rgb(222, 253, 230);
+    text-shadow:
+    0 0 10px rgb(58, 231, 101),
+    0 0 15px  rgb(58, 231, 101),
+    0 0 20px  rgb(58, 231, 101),
+    0 0 25px  rgb(58, 231, 101),
+    0 0 30px  rgb(58, 231, 101),
+    0 0 35px  rgb(58, 231, 101),
+    0 0 40px  rgb(58, 231, 101);
+    transition: .5s;
+}
+
+.select label {
+    
+    color: #fff;
+        text-shadow:
+        0 0 10px  #fff,
+        0 0 15px  #fff,
+        0 0 20px  #fff;
+        
+}
+
+.li-color-A {
+    font-size: 20px;
+    color: rgb(252, 235, 250);
+    text-shadow:
+    0 0 10px rgb(235, 52, 219),
+    0 0 15px rgb(235, 52, 219),
+    0 0 20px rgb(235, 52, 219),
+    0 0 25px rgb(235, 52, 219),
+    0 0 30px rgb(235, 52, 219),
+    0 0 35px rgb(235, 52, 219),
+    0 0 40px rgb(235, 52, 219);
+    transition: .5s;
+
+}
+
+.li-color-B {
+    font-size: 20px;
+  color: rgb(239, 241, 248);
+    text-shadow:
+    0 0 10px rgb(43, 89, 241),
+    0 0 15px rgb(43, 89, 241),
+    0 0 20px rgb(43, 89, 241),
+    0 0 25px rgb(43, 89, 241),
+    0 0 30px rgb(43, 89, 241),
+    0 0 35px rgb(43, 89, 241),
+    0 0 40px rgb(171, 185, 233);
+    transition: .5s;
+
+}
+
+.li-color-C {
+    font-size: 20px;
+ color: rgb(248, 247, 247);
+    text-shadow:
+    0 0 10px rgb(245, 107, 53),
+    0 0 15px rgb(231, 101, 50),
+    0 0 20px rgb(231, 101, 50),
+    0 0 25px rgb(231, 101, 50),
+    0 0 30px rgb(231, 101, 50),
+    0 0 35px rgb(228, 150, 119),
+    0 0 40px rgb(226, 183, 166);
+    transition: .5s;
+
+}
+
+.li-color-D {
+    font-size: 20px;
+color: rgb(248, 250, 223);
+    text-shadow:
+    0 0 10px rgb(236, 247, 90),
+    0 0 15px rgb(236, 247, 90),
+    0 0 20px rgb(236, 247, 90),
+    0 0 25px rgb(236, 247, 90),
+    0 0 30px rgb(236, 247, 90),
+    0 0 35px rgb(236, 247, 90),
+    0 0 40px rgb(236, 247, 90);
+    transition: .5s;
+
+}
+
+.li-color-E {
+    font-size: 20px;
+color: rgb(222, 253, 230);
+    text-shadow:
+    0 0 10px rgb(58, 231, 101),
+    0 0 15px  rgb(58, 231, 101),
+    0 0 20px  rgb(58, 231, 101),
+    0 0 25px  rgb(58, 231, 101),
+    0 0 30px  rgb(58, 231, 101),
+    0 0 35px  rgb(58, 231, 101),
+    0 0 40px  rgb(58, 231, 101);
+    transition: .5s;
+
+}

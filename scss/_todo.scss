@@ -1,0 +1,70 @@
+
+$cota: #12dde4;
+$black: #333;
+$white: #fafafa;
+
+.logo {
+    text-align: center;
+    margin: auto;
+    user-select: none;
+   
+}
+.logo b{
+    font: 400 13vh "Vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $cota, 0 0 0.5em $cota, 0 0 0.1em $cota, 0 10px 3px #000;
+   font-family: 'Economica', sans-serif;
+   letter-spacing: 5px;
+
+}
+
+i {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.logo b span{
+  animation: blink linear infinite 2.3s;
+
+  &:nth-of-type(2){
+    animation: blink linear infinite 10s;
+  }
+  &:nth-of-type(3){
+    animation: blink linear infinite 3s;
+  }
+}
+
+/* 点滅　順序のある */
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: $black;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  85% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  86% {
+    color: $black;
+    text-shadow: none;
+  }
+  87% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  96% {
+    color: $black;
+    text-shadow: none;
+  }
+  97% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
