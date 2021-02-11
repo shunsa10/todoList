@@ -107,7 +107,8 @@ list.addEventListener('click', e => {
     if (e.target.classList.contains('delete')) {
         e.target.parentElement.remove();
 
-        const task = e.target.parentElement.textContent.trim()
+        const task = e.target.parentElement.textContent.trim().slice(2)
+        console.log(task);
         deleteTaskFromLocalStorage(task);
         
        
