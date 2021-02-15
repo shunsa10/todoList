@@ -17,41 +17,32 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-       
+    <link rel="icon" type="image/x-icon" href="./img/phonto.jpeg">
 <!--  -->
-    <title>TODOq</title>
+    <title>TODO LIST</title>
 </head>
 
 <body>
-    
-    <div class="container">
-                <div class="logo"><b>T<span><i class="fab fa-medapps"></i></span><span>D</span><span>o</span></b></div>
-                
-                
+        <div class="container">
+            <div class="logo"><b>T<span><i class="fab fa-medapps"></i></span><span>D</span><span>o</span></b></div>
                 <div class="list">
                     <ul class="list-group todos mx-auto text-light">
-                        <!-- javaScript でリストを追加する予定-->
+                        <!-- javaScriptでリストを追加する予定の場所-->
                     </ul>
                 </div>
-
-                <p id="rao">Received an order</p>
-                
-                
+            <p id="rao">Received an order</p>
                 <form id="form" name="listAdd" class="add text-center my-4" style="width: 300px;">
-                    
                     <input type="text" class="form-control m-auto" name="add" placeholder="New Text">
-                    <div class="select" name="select">
-                        <input type="radio" name="todor" id="selecta" value="A" class="selecta" checked="checked"><label for="selecta">A</label>
-                        <input type="radio" name="todor" id="selectb" value="B" class="selectb"><label for="selectb">B</label>
-                        <input type="radio" name="todor" id="selectc" value="C" class="selectc"><label for="selectc">C</label>
-                        <input type="radio" name="todor" id="selectd" value="D" class="selectd"><label for="selectd">D</label>
-                        <input type="radio" name="todor" id="selecte" value="E" class="selecte"><label for="selecte">E</label>
-                    </div>
+                        <div class="select" name="select">
+                            <input type="radio" name="todor" id="selecta" value="A" class="selecta" checked="checked"><label for="selecta">A</label>
+                            <input type="radio" name="todor" id="selectb" value="B" class="selectb"><label for="selectb">B</label>
+                            <input type="radio" name="todor" id="selectc" value="C" class="selectc"><label for="selectc">C</label>
+                            <input type="radio" name="todor" id="selectd" value="D" class="selectd"><label for="selectd">D</label>
+                            <input type="radio" name="todor" id="selecte" value="E" class="selecte"><label for="selecte">E</label>
+                        </div>
                     <input name="submit" type="button" value="ORDER" id="btn">
-               
                 </form>
-                
-    </div>
+        </div>
     <script src="index.js"></script>
     
 

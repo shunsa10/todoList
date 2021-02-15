@@ -2,25 +2,21 @@
 .container {
     max-width: 300px;
     overflow: hidden;
-    @include sp {
-        max-width: 350px;
-    }
+   
 }
 
 input[type=text],
 input[type=text]:focus {
     color: #9abca4;
     border: none;
-    background: rgba(0, 0, 0, 0.5);
+    background: #00000080;
     max-width: 400px;
-    @include sp {
-        max-width: 350px;
-    }
+   
 }
 
 /* 追加 */
 .todos li {
-    background: rgba(14, 16, 19, .5);
+    background: #0e101380;
    
 }
 

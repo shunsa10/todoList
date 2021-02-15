@@ -33,12 +33,8 @@ const deleteTaskFromLocalStorage = task => {
 }
 
 let form = document.forms[0];
-
 let radio = form.todor;
-
 let submit = form.submit;
-
-
 
 const test = submit.addEventListener('click', () => {
 
@@ -133,7 +129,6 @@ document.getElementById('btn').onclick = function() {
 };
 
 
-
 btn.addEventListener('click', () => {
     
     received.classList.add('blinking');
@@ -144,5 +139,3 @@ btn.addEventListener('click', () => {
 
   
 });
-
-//ラジオボタンの値を取得

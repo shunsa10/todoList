@@ -1,19 +1,29 @@
 @charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../img/image.jpg);
+  width: 100%;
+}
+
 .container {
-  max-width: 400px;
+  max-width: 300px;
+  overflow: hidden;
 }
 
 input[type=text],
 input[type=text]:focus {
   color: #9abca4;
   border: none;
-  background: rgba(0, 0, 0, 0.5);
+  background: #00000080;
   max-width: 400px;
 }
 
 /* 追加 */
 .todos li {
-  background: rgba(14, 16, 19, 0.5);
+  background: #0e101380;
 }
 
 /* 追加 */
@@ -81,7 +91,7 @@ label {
 
 .select label {
   color: #fff;
-  text-shadow: 0 0 10px  #fff, 0 0 15px  #fff, 0 0 20px  #fff;
+  text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
 }
 
 .li-color-A {
@@ -125,14 +135,7 @@ label {
 }
 
 form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 400px;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -143,8 +146,8 @@ form {
   border: solid 1px #fff;
   color: #fff;
   padding: 5px;
-  -webkit-box-shadow: 0 0 10px  #fff, 0 0 15px  #fff;
-          box-shadow: 0 0 10px  #fff, 0 0 15px  #fff;
+  -webkit-box-shadow: 0 0 10px #fff, 0 0 15px #fff;
+          box-shadow: 0 0 10px #fff, 0 0 15px #fff;
 }
 
 #btn {
@@ -152,15 +155,15 @@ form {
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   border-style: none;
-  border: solid 1px rgba(255, 255, 255, 0.3);
+  border: solid 1px #ffffff4d;
   margin: 20px auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #00000080;
   color: #fff;
 }
 
 #btn:hover {
   cursor: pointer;
-  text-shadow: 0 0 10px  #fff, 0 0 15px  #fff;
+  text-shadow: 0 0 10px #fff, 0 0 15px #fff;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -168,8 +171,8 @@ form {
 #btn.elem {
   -webkit-transition: .5s;
   transition: .5s;
-  -webkit-box-shadow: 0 0 10px  #fff, 0 0 15px  #fff, 0 0 20px  #fff, 0 0 25px  #fff;
-          box-shadow: 0 0 10px  #fff, 0 0 15px  #fff, 0 0 20px  #fff, 0 0 25px  #fff;
+  -webkit-box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff;
+          box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff;
 }
 
 p {
@@ -179,7 +182,7 @@ p {
 
 .blinking {
   color: #fff;
-  text-shadow: 0 0 4px #fff, 0 0 5px #fff, 0 0 10px #f40, 0 0 15px #f40, 0 0 25px  #f40, 0 0 30px #f40;
+  text-shadow: 0 0 4px #fff, 0 0 5px #fff, 0 0 10px #f40, 0 0 15px #f40, 0 0 25px #f40, 0 0 30px #f40;
   -webkit-animation: blink linear infinite 2s;
           animation: blink linear infinite 2s;
 }
@@ -267,15 +270,5 @@ i {
     color: inherit;
     text-shadow: inherit;
   }
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  background-image: url(../img/image.jpg);
-  width: 100vw;
-  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

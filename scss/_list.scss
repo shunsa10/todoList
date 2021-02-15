@@ -8,10 +8,7 @@
   display: block;
   margin: 0 auto;
   
-  @include sp {
-      display: inline-block;
-      width: 300px;
-  }
+ 
 }
 
 input[type=radio] {
@@ -23,7 +20,7 @@ label {
     
     letter-spacing: 20px;
     font-size: 30px;
-    color: #fff;
+    color: $fff;
     cursor: pointer;
     text-align: center;
    
@@ -33,151 +30,151 @@ label {
 }
 .select input[type="radio"]:checked.selecta + label {
     
-    color: rgb(252, 235, 250);
+    color: #fcebfa;
     text-shadow:
-    0 0 10px rgb(235, 52, 219),
-    0 0 15px rgb(235, 52, 219),
-    0 0 20px rgb(235, 52, 219),
-    0 0 25px rgb(235, 52, 219),
-    0 0 30px rgb(235, 52, 219),
-    0 0 35px rgb(235, 52, 219),
-    0 0 40px rgb(235, 52, 219);
+    0 0 10px $mainPink,
+    0 0 15px $mainPink,
+    0 0 20px $mainPink,
+    0 0 25px $mainPink,
+    0 0 30px $mainPink,
+    0 0 35px $mainPink,
+    0 0 40px $mainPink;
     transition: .5s;
 }
 
 .select input[type="radio"]:checked.selectb + label {
-    color: rgb(239, 241, 248);
+    color: #eff1f8;
     text-shadow:
-    0 0 10px rgb(43, 89, 241),
-    0 0 15px rgb(43, 89, 241),
-    0 0 20px rgb(43, 89, 241),
-    0 0 25px rgb(43, 89, 241),
-    0 0 30px rgb(43, 89, 241),
-    0 0 35px rgb(43, 89, 241),
-    0 0 40px rgb(171, 185, 233);
+    0 0 10px $mainBlue,
+    0 0 15px $mainBlue,
+    0 0 20px $mainBlue,
+    0 0 25px $mainBlue,
+    0 0 30px $mainBlue,
+    0 0 35px $mainBlue,
+    0 0 40px #abb9e9;
     transition: .5s;
 }
 
 .select input[type="radio"]:checked.selectc + label {
-    color: rgb(248, 247, 247);
+    color: #f8f7f7;
     text-shadow:
-    0 0 10px rgb(245, 107, 53),
-    0 0 15px rgb(231, 101, 50),
-    0 0 20px rgb(231, 101, 50),
-    0 0 25px rgb(231, 101, 50),
-    0 0 30px rgb(231, 101, 50),
-    0 0 35px rgb(228, 150, 119),
-    0 0 40px rgb(226, 183, 166);
+    0 0 10px #f56b35,
+    0 0 15px $mainOrange,
+    0 0 20px $mainOrange,
+    0 0 25px $mainOrange,
+    0 0 30px $mainOrange,
+    0 0 35px #e49677,
+    0 0 40px #e2b7a6;
     transition: .5s;
 }
 
 .select input[type="radio"]:checked.selectd + label {
-    color: rgb(248, 250, 223);
+    color: #f8fadf;
     text-shadow:
-    0 0 10px rgb(236, 247, 90),
-    0 0 15px rgb(236, 247, 90),
-    0 0 20px rgb(236, 247, 90),
-    0 0 25px rgb(236, 247, 90),
-    0 0 30px rgb(236, 247, 90),
-    0 0 35px rgb(236, 247, 90),
-    0 0 40px rgb(236, 247, 90);
+    0 0 10px $mainYellow,
+    0 0 15px $mainYellow,
+    0 0 20px $mainYellow,
+    0 0 25px $mainYellow,
+    0 0 30px $mainYellow,
+    0 0 35px $mainYellow,
+    0 0 40px $mainYellow;
     transition: .5s;
 }
 
 .select input[type="radio"]:checked.selecte + label {
-    color: rgb(222, 253, 230);
+    color: #defde6;
     text-shadow:
-    0 0 10px rgb(58, 231, 101),
-    0 0 15px  rgb(58, 231, 101),
-    0 0 20px  rgb(58, 231, 101),
-    0 0 25px  rgb(58, 231, 101),
-    0 0 30px  rgb(58, 231, 101),
-    0 0 35px  rgb(58, 231, 101),
-    0 0 40px  rgb(58, 231, 101);
+    0 0 10px $mainGreen,
+    0 0 15px  $mainGreen,
+    0 0 20px  $mainGreen,
+    0 0 25px  $mainGreen,
+    0 0 30px  $mainGreen,
+    0 0 35px  $mainGreen,
+    0 0 40px  $mainGreen;
     transition: .5s;
 }
 
 .select label {
     
-    color: #fff;
+    color: $fff;
         text-shadow:
-        0 0 10px  #fff,
-        0 0 15px  #fff,
-        0 0 20px  #fff;
+        0 0 10px  $fff,
+        0 0 15px  $fff,
+        0 0 20px  $fff;
         
 }
 
 .li-color-A {
     font-size: 20px;
-    color: rgb(252, 235, 250);
+    color: #fcebfa;
     text-shadow:
-    0 0 10px rgb(235, 52, 219),
-    0 0 15px rgb(235, 52, 219),
-    0 0 20px rgb(235, 52, 219),
-    0 0 25px rgb(235, 52, 219),
-    0 0 30px rgb(235, 52, 219),
-    0 0 35px rgb(235, 52, 219),
-    0 0 40px rgb(235, 52, 219);
+    0 0 10px $mainPink,
+    0 0 15px $mainPink,
+    0 0 20px $mainPink,
+    0 0 25px $mainPink,
+    0 0 30px $mainPink,
+    0 0 35px $mainPink,
+    0 0 40px $mainPink;
     transition: .5s;
 
 }
 
 .li-color-B {
     font-size: 20px;
-  color: rgb(239, 241, 248);
+  color: #eff1f8;
     text-shadow:
-    0 0 10px rgb(43, 89, 241),
-    0 0 15px rgb(43, 89, 241),
-    0 0 20px rgb(43, 89, 241),
-    0 0 25px rgb(43, 89, 241),
-    0 0 30px rgb(43, 89, 241),
-    0 0 35px rgb(43, 89, 241),
-    0 0 40px rgb(171, 185, 233);
+    0 0 10px $mainBlue,
+    0 0 15px $mainBlue,
+    0 0 20px $mainBlue,
+    0 0 25px $mainBlue,
+    0 0 30px $mainBlue,
+    0 0 35px $mainBlue,
+    0 0 40px #abb9e9;
     transition: .5s;
 
 }
 
 .li-color-C {
     font-size: 20px;
- color: rgb(248, 247, 247);
+ color: #f8f7f7;
     text-shadow:
-    0 0 10px rgb(245, 107, 53),
-    0 0 15px rgb(231, 101, 50),
-    0 0 20px rgb(231, 101, 50),
-    0 0 25px rgb(231, 101, 50),
-    0 0 30px rgb(231, 101, 50),
-    0 0 35px rgb(228, 150, 119),
-    0 0 40px rgb(226, 183, 166);
+    0 0 10px #f56b35,
+    0 0 15px $mainOrange,
+    0 0 20px $mainOrange,
+    0 0 25px $mainOrange,
+    0 0 30px $mainOrange,
+    0 0 35px #e49677,
+    0 0 40px #e2b7a6;
     transition: .5s;
 
 }
 
 .li-color-D {
     font-size: 20px;
-color: rgb(248, 250, 223);
+color: #f8fadf;
     text-shadow:
-    0 0 10px rgb(236, 247, 90),
-    0 0 15px rgb(236, 247, 90),
-    0 0 20px rgb(236, 247, 90),
-    0 0 25px rgb(236, 247, 90),
-    0 0 30px rgb(236, 247, 90),
-    0 0 35px rgb(236, 247, 90),
-    0 0 40px rgb(236, 247, 90);
+    0 0 10px $mainYellow,
+    0 0 15px $mainYellow,
+    0 0 20px $mainYellow,
+    0 0 25px $mainYellow,
+    0 0 30px $mainYellow,
+    0 0 35px $mainYellow,
+    0 0 40px $mainYellow;
     transition: .5s;
 
 }
 
 .li-color-E {
     font-size: 20px;
-color: rgb(222, 253, 230);
+color: #defde6;
     text-shadow:
-    0 0 10px rgb(58, 231, 101),
-    0 0 15px  rgb(58, 231, 101),
-    0 0 20px  rgb(58, 231, 101),
-    0 0 25px  rgb(58, 231, 101),
-    0 0 30px  rgb(58, 231, 101),
-    0 0 35px  rgb(58, 231, 101),
-    0 0 40px  rgb(58, 231, 101);
+    0 0 10px $mainGreen,
+    0 0 15px  $mainGreen,
+    0 0 20px  $mainGreen,
+    0 0 25px  $mainGreen,
+    0 0 30px  $mainGreen,
+    0 0 35px  $mainGreen,
+    0 0 40px  $mainGreen;
     transition: .5s;
 
 }
